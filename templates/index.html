@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kurs html</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link rel="stylesheet" href="../static/style.css">
+  <style>
+      {#body {#}
+      {#    background-color: red;#}
+      {#}#}
+
+      h1 {
+          color: blue;
+      }
+
+      p {
+          color: red;
+      }
+  </style>
+</head>
+<body >
+<h1 style="font-size: 60px;">This is heading 1</h1>
+<h2 style="background-color:rgb(250,23,23); text-align:center;">This is heading 2</h2>
+<h3 style="font-family: 'Shantell Sans', cursive; font-size:300%; border:5px dotted Tomato; width: 30%; float: left;">
+  This is heading 3</h3>
+<h3 style="font-family: 'Shantell Sans', cursive; font-size:300%; border:5px dotted Tomato; width: 30%; float: left;">
+  This is heading 3</h3>
+<div style="clear: both;"></div>
+<h4>h4</h4>
+<br>
+<h7>fgsdjfhksd</h7>
+<p>xxxxxxx</p>
+<img src="https://j.gifs.com/yoe67W.gif"
+     alt="brakujacy obrazek" width="104" height="142">
+<a href="https://www.w3schools.com" title="To jest link do strony" target="_blank">This is a
+  link</a>
+<p style="color: red" title="tooltip">My first paragraph.</p>
+<hr>
+<p style="color: greenyellow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non
+  tellus id est eleifend
+  iaculis. Nulla facilisi. Donec nec magna aliquet, sollicitudin elit sed, vulputate nibh. Nullam
+  efficitur nibh quis <a href="https://www.aol.com" title="To jest link do strony" target="_blank">This
+    is a
+    link</a> commodo faucibus. Mauris at odio nulla. Vestibulum euismod massa risus. In
+  pretium, ante pellentesque fermentum dignissim, nulla erat tristique neque, vitae efficitur ante
+  lectus vel mi. <br>Proin at vehicula metus, non venenatis arcu. In imperdiet, enim ac tempus
+  mollis,
+  lacus massa suscipit nisi, et tempor neque ipsum vitae quam. Nulla purus velit, posuere et nunc
+  eu, molestie varius dolor. Vivamus non commodo sem. In venenatis enim lacus. Vivamus eleifend diam
+  at quam pellentesque pellentesque.</p>
+<hr>
+<p style="border-bottom: 1px solid brown; padding-bottom: 20px">Etiam vulputate commodo venenatis.
+  Praesent et porttitor sapien, at finibus dolor. Suspendisse
+  nec tincidunt leo. In sit amet bibendum lectus. Phasellus orci ante, molestie eget auctor
+  suscipit, ullamcorper eget quam. Maecenas massa enim, lobortis non rhoncus nec, pulvinar non
+  lectus. Duis nec leo sed leo imperdiet elementum. Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit. Duis eget enim congue, porttitor enim in, efficitur ex. Pellentesque id rhoncus
+  dui, in imperdiet sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+  cubilia curae; Fusce venenatis magna mauris, vel aliquam neque molestie sit amet.</p>
+<hr>
+<p>Aenean sit amet neque id diam pellentesque venenatis ac nec nulla. Phasellus faucibus a eros quis
+  gravida. Maecenas laoreet semper vehicula. Duis quis dui vulputate, venenatis nisi nec, pretium
+  tellus. Donec fermentum enim interdum ante suscipit, nec auctor lorem viverra. Morbi molestie in
+  arcu in luctus. Mauris facilisis enim non nunc ultricies venenatis. Pellentesque vitae eros
+  sodales, rutrum sapien vitae, interdum nisl. Fusce congue et nibh quis scelerisque. Fusce vel
+  risus mauris.</p>
+
+<p>In consequat egestas tellus, nec lacinia eros convallis at. Nullam et ex non sem euismod mollis
+  et et orci. The <abbr title="Zaawansowane Technologie Informatyczne">ZTI</abbr> was founded in
+  1948. Ut consequat metus in orci blandit, sit amet lobortis sem iaculis. Ut rutrum ut sem
+  sit amet placerat. Quisque sed euismod enim. Donec a justo ligula. Curabitur sit amet sem vitae
+  turpis
+  <del>convallis ultricies</del>
+  . Ut vestibulum bibendum ultricies. Nullam posuere molestie eros at
+  volutpat. Quisque ac <q>Build a future where people live in harmony with nature.</q> nunc porta,
+  dictum odio non, feugiat enim. Vestibulum semper, eros ac congue
+  blandit, felis tortor dictum magna, quis convallis lorem risus ut dui. Sed tincidunt tristique
+  nisl sed fringilla.
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation
+  organization, WWF works in nearly 100 countries. At every level, we collaborate with people around
+  the world to develop and deliver innovative solutions that protect communities, wildlife, and the
+  places in which they live.
+</blockquote>
+
+</p>
+
+<!--
+Write your comments here
+{#fdsjkfhsdkfs#}
+{% comment %}
+fsdfsdfsdfsdfdfsd
+fsdfsdfs
+{% endcomment %}
+-->
+<p><b>Class</b> aptent taciti
+  <ins>sociosqu</ins>
+  ad litora torquent per conubia nostra, per inceptos himenaeos. Proin
+  gravida nisl in sem X<sub>1</sub>, x<sup>2</sup> vestibulum vestibulum orci faucibus. Nullam eget
+  eleifend
+  tellus. <strong>Sed</strong> rutrum, augue ac scelerisque lobortis, ex justo rutrum ex, quis
+  consequat orci tellus
+  quis erat. <small style="font-size: 10%">Nunc</small> eget augue risus. Orci varius natoque
+  penatibus et magnis dis parturient montes,
+  <i>nascetur ridiculus mus. Vestibulum nibh dui, blandit in arcu ut, viverra mattis mi. Praesent
+    luctus
+    <mark style="background-color: orange">milk</mark>
+    volutpat dignissim. Duis porttitor condimentum faucibus. Sed bibendum vehicula viverra.</i></p>
+
+<pre>
+  &lt;a&gt; href="dsds">fsdfsdf&lt;/a&gt;
+
+  fsdf
+
+  sdfs
+  dfsd
+
+</pre>
+
+<address>
+  Written by John Doe.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+</address>
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<bdo dir="rtl">This text will be written from right to left</bdo>
+</body>
+</html>

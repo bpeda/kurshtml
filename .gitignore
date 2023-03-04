@@ -39,3 +39,4 @@ build/*
 *.egg-info
 project/urls_local.py
 .env
+.idea

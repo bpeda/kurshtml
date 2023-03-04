@@ -28,7 +28,7 @@
 <h7>fgsdjfhksd</h7>
 <p>xxxxxxx</p>
 <img src="https://j.gifs.com/yoe67W.gif"
-     alt="brakujacy obrazek" width="104" height="142">
+     alt="brakujacy obrazek" class="obrazek_20">
 <a href="https://www.w3schools.com" title="To jest link do strony" target="_top">This is a
   link</a>
 <a href="https://www.gnfdgfkldgd.com" title="To jest link do strony" target="_top">Acive?</a>
@@ -48,7 +48,7 @@
   at quam pellentesque pellentesque.</p>
 <hr>
 <h2 id="C4">Etiam vulputate</h2>
-<a href="#menu" title="menu">powrót na górę</a>
+<a href="#menu" title="menu" class="to_p">powrót na górę</a>
 <p>Etiam vulputate commodo venenatis.
   Praesent et porttitor sapien, at finibus dolor. Suspendisse
   nec tincidunt leo. In sit amet bibendum lectus. Phasellus orci ante, molestie eget auctor
@@ -64,8 +64,12 @@
   arcu in luctus. Mauris facilisis enim non nunc ultricies venenatis. Pellentesque vitae eros
   sodales, rutrum sapien vitae, interdum nisl. Fusce congue et nibh quis scelerisque. Fusce vel
   risus mauris.</p>
-
-<p>In consequat egestas tellus, nec lacinia eros convallis at. Nullam et ex non sem euismod mollis
+<img src="{% static 'gfx/html i css.jpg' %}" alt="html i css - śmieszny obrazek" class="obrazek_30">
+<img src="{% static 'gfx/html i css.jpg' %}" alt="html i css - śmieszny obrazek">
+{#<img src="../static/gfx/html%20i%20css.jpg">#}
+<div>
+<img src="{% static 'gfx/html i css.jpg' %}" alt="html i css - śmieszny obrazek" class="obrazek_30 plywaj_do_lewej">
+<p class="to_p">In consequat egestas tellus, nec lacinia eros convallis at. Nullam et ex non sem euismod mollis
   et et orci. The <abbr title="Zaawansowane Technologie Informatyczne">ZTI</abbr> was founded in
   1948. Ut consequat metus in orci blandit, sit amet lobortis sem iaculis. Ut rutrum ut sem
   sit amet placerat. Quisque sed euismod enim. Donec a justo ligula. Curabitur sit amet sem vitae
@@ -75,8 +79,9 @@
   volutpat. Quisque ac <q>Build a future where people live in harmony with nature.</q> nunc porta,
   dictum odio non, feugiat enim. Vestibulum semper, eros ac congue
   blandit, felis tortor dictum magna, quis convallis lorem risus ut dui. Sed tincidunt tristique
-  nisl sed fringilla.
-<h2 id="blackquote">blockquote</h2>
+  nisl sed fringilla.</p>
+</div>
+<h2 id="blackquote" style="clear: both">blockquote</h2>
 <a href="#menu" title="menu">powrót na górę</a>
 <blockquote cite="http://www.worldwildlife.org/who/index.html">
   For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation
@@ -86,8 +91,10 @@
 </blockquote>
 <a href="https://wp.pl" title="wp.pl- serwis" target="_blank">
   <img src="https://j.gifs.com/yoe67W.gif"
-       alt="brakujacy obrazek" width="104" height="142">
+       alt="brakujacy obrazek">
 </a>
+
+
 
 
 <a href="mailto:someone@example.com?subject=[www]Wiadomosc ze strony&body=czesc! mam pytanie:">Send email</a>
@@ -102,7 +109,7 @@ fsdfsdfsdfsdfdfsd
 fsdfsdfs
 {% endcomment %}
 -->
-<p><b>Class</b> aptent taciti
+<p class="bgimagetest"><b>Class</b> aptent taciti
   <ins>sociosqu</ins>
   ad litora torquent per conubia nostra, per inceptos himenaeos. Proin
   gravida nisl in sem X<sub>1</sub>, x<sup>2</sup> vestibulum vestibulum orci faucibus. Nullam eget
@@ -136,5 +143,18 @@ fsdfsdfs
 
 <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 <bdo dir="rtl">This text will be written from right to left</bdo>
+
+<img src="{% static 'gfx/html i css.jpg' %}" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" onclick="myFunction()">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
 </body>
 </html>

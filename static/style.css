@@ -1,5 +1,5 @@
 body {
-    background-color: orange;
+    background-color: antiquewhite;
 }
 
 p {
@@ -7,6 +7,30 @@ p {
     padding: 30px 10px 20px 10px;
     background: azure;
     margin: 50px;
+}
+
+p.to_p {
+    margin-left: 0px;
+}
+
+p.bgimagetest {
+    background-image: url("gfx/html i css.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+p#menu {
+    background: grey;
+}
+
+.obrazek_30 {
+    width: 30%;
+}
+
+.obrazek_20 {
+    width: 20%;
 }
 
 a:link {
@@ -32,3 +56,19 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+img {
+    width: 50%;
+}
+
+.plywaj_do_lewej {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+a.to_p {
+    color: fuchsia;
+}
+
